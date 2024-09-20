@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans;
+    letter-spacing: 2px;
+  }
+  
+  .sections {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, red, blue);
+  }
+  .sections h1 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.4);
+    -webkit-backdrop-filter: blur(3px);
+            backdrop-filter: blur(2px);
+    z-index: 0;
+  }
+  
+  header {
+    display: fixed;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 0;
+    width:111%;
+    height:60px;
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+    z-index: 10;
+  }
+  
+  nav {
+    width: 60%;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav ul li {
+    margin: 10px;
+  }
+  nav ul li a {
+    text-decoration: line;
+    color: #fff;
+    padding: 10px 15px;
+    background: rgba(51, 51, 51, 0.3);
+    border: 2px solid #fff;
+  }
+  
+  .active {
+    background: rgb(14, 167, 255);
+    color: #000;
+    box-shadow: 0 0 4px 2px #fff;
+  }
+  
+  #home {
+    background: linear-gradient(45deg, skyblue, rgb(45, 5, 150));
+  }
+  
+  #about {
+    background: linear-gradient(45deg,blue, rgb(12, 209, 143));
+  }
+  
+  #contact {
+    background: linear-gradient(45deg, violet, rgb(222, 219, 14));
+  }
+  
+  #login {
+    background: linear-gradient(45deg, violet, rgb(75, 15, 120));
+  }/*# sourceMappingURL=index.css.map */
